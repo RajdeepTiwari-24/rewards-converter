@@ -1,5 +1,16 @@
 import java.util.Scanner;
 
+public class RewardValue{
+    double y;
+    RewardValue(double x){
+        y=x;
+    }
+    double getMilesValue(){
+        return y*(0.0035);
+    }
+}
+
+
 public class RewardsConverter {
     public static void main(String[] args) {
         var scanner = new Scanner(System.in);
